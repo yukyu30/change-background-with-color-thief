@@ -4,10 +4,15 @@ import ImageCard from './ImageCard';
 
 
 function App() {
+  const images =["./white_example.png", "./light_example.png", "./dark_example.png"]
   return (
     <div className="App">
       <header className="App-header">
-       <ImageCard imgSrc={"./dark_example.png"} />
+      <div className="grid">
+          {images.map((image) => {
+            return (<ImageCard imgSrc={image} /> )
+          })}
+        </div>
       </header>
     </div>
   );
