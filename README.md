@@ -4,6 +4,6 @@
 
 ### 実行方法
 ```
-npm start
+yarn start
 ```
 上記のコマンドを実行後、[http://localhost:3000](http://localhost:3000)  にアクセスしてください
